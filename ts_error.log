@@ -1,0 +1,1 @@
+app/api/parse-document/route.ts(3,8): error TS1192: Module '"C:/Users/RAAG0206/Desktop/crioWebApp/node_modules/pdf-parse/dist/pdf-parse/esm/index"' has no default export.

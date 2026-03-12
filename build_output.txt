@@ -1,0 +1,76 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ÔÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\RAAG0206\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\RAAG0206\Desktop\crioWebApp\pnpm-lock.yaml
+
+   Ôû▓ Next.js 16.0.10 (Turbopack)
+   - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx:12:1
+Module not found: Can't resolve 'react-pdf/dist/esm/Page/AnnotationLayer.css'
+  10 | import { Loader2, AlertCircle } from "lucide-react"
+  11 | import { Document, Page, pdfjs } from "react-pdf"
+> 12 | import "react-pdf/dist/esm/Page/AnnotationLayer.css"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import "react-pdf/dist/esm/Page/TextLayer.css"
+  14 |
+  15 | pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx [Client Component Browser]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Client Component Browser]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx [Client Component SSR]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Client Component SSR]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx:13:1
+Module not found: Can't resolve 'react-pdf/dist/esm/Page/TextLayer.css'
+  11 | import { Document, Page, pdfjs } from "react-pdf"
+  12 | import "react-pdf/dist/esm/Page/AnnotationLayer.css"
+> 13 | import "react-pdf/dist/esm/Page/TextLayer.css"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
+  16 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx [Client Component Browser]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Client Component Browser]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx [Client Component SSR]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Client Component SSR]
+    ./Desktop/crioWebApp/app/share/[token]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx:12:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Desktop/crioWebApp/components/dashboard/datarooms/file-preview-modal.tsx:13:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)

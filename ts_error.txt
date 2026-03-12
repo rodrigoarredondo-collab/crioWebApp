@@ -1,0 +1,1 @@
+app/api/parse-document/route.ts(2,17): error TS2307: Cannot find module 'pdf-parse/lib/pdf-parse' or its corresponding type declarations.

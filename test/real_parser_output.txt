@@ -1,0 +1,70 @@
+Total: 23
+
+1. [Significance] [Critique 1]
+   Phase I biological scope is too narrow: The proposal states that a fully developed tumor model is beyond Phase I, but without intermediate biological goals, it's unclear how this stage informs future 
+
+2. [Significance] [Critique 1]
+   While pancreatic cancer is a critical target, the proposal’s exclusive focus on this model may limit its perceived broader applicability. In addition, the system prints only pancreatic tumor cells wit
+
+3. [Significance] [Critique 1]
+   The design lacks detail on the actual 3D architecture of the printed constructs - what structures are being printed and why they matter biologically is not specified. Are they replicating glandular st
+
+4. [Investigator(s)] [Critique 1]
+   The absence of a pancreatic cancer expert on the team raises concerns about the depth of disease-specific insight and the validity of the tumor modeling approach.
+
+5. [Innovation] [Critique 1]
+   Unclear what's new biologically.
+
+6. [Innovation] [Critique 1]
+   As a novel technology, cryobioprinting lacks established benchmarks, which may raise concerns about validation and adoption by conservative pharmaceutical industries.
+
+7. [Innovation] [Critique 1]
+   The proposal doesn’t demonstrate that their approach produces more physiologically relevant pancreatic tumor models than existing methods like organoids or organ-on-chip.
+
+8. [Innovation] [Critique 1]
+   The real innovative application (e.g., tumor model function in drug testing) is deferred to Phase II, limiting near-term impact.
+
+9. [Approach] [Critique 1]
+   It remains unclear why bioprinting is essential here, as many drug-screening platforms use cast or self-assembled 3D cultures effectively.
+
+10. [Approach] [Critique 1]
+   The design does not define what specific tissue structures are being bioprinted (e.g., layered epithelium, ductal structures), making it difficult to assess whether spatial control is even necessary o
+
+11. [Approach] [Critique 1]
+   There’s no clear standard to validate the printed tissues against real tumor tissue or existing in vitro models. No benchmarking is done against spheroids or organoids to show improved functionality o
+
+12. [Significance] [Critique 2]
+   While it has been shown to preserve to ~80% over three months, is 3 months sufficient to be commercially relevant?
+
+13. [Significance] [Critique 2]
+   The relevance of 3 months to a proposed commercial application is unsupported.
+
+14. [Innovation] [Critique 2]
+   Again the relevance to a real-world application and workflow would improve my enthusiasm for this approach as a clear market pull would be evident. It isn't clear that 3 months is sufficient to be use
+
+15. [Approach] [Critique 2]
+   Are the materials and geometries optimal for any cryopreservation fixture method? 96 well plates are not typically flat or designed for use at -20C. The issues with uniform temperature in the plastic 
+
+16. [Significance] [Critique 3]
+   While the technical rationale for pursuing pancreatic cancer as a first demonstration platform is clear based on tissue properties, the business case for pursuing this cell type is not justified withi
+
+17. [Significance] [Critique 3]
+   A discussion of how the proposed solution integrates automated screening platforms would be helpful to justify that their solution meets the needs of this space.
+
+18. [Investigator(s)] [Critique 3]
+   A clinical/pharma subject matter expert on the team would help ensure their initial use case is one that serves market needs and ensures appropriate quality metrics are applied to the cell printing op
+
+19. [Innovation] [Critique 3]
+   Focus is primarily on scale up of existing technique.
+
+20. [Innovation] [Critique 3]
+   Assessment of competitive landscape and alternative solutions within the space not discussed in depth.
+
+21. [Approach] [Critique 3]
+   The risk mitigation strategy relies primarily on "iterative tuning", which could put project completion at risk if multiple design iterations are needed on the cooling block.  Project has a short time
+
+22. [Approach] [Critique 3]
+   "All parameters will be iteratively tuned to identify optimal combinations that yield high-fidelity, reproducible constructs." It would be better if they could provide a DoE showing how they will map 
+
+23. [Approach] [Critique 3]
+   Some technical risk on temperature uniformity based on fluid flow through the block.  Fluid may change temperature from inlet/outlet unless flow rate is maintained at high level and fluid reservoir is

@@ -1,0 +1,58 @@
+Reviewer 1
+
+1. Significance
+Strengths:
+- The proposal addresses a critical gap in pancreatic cancer modeling.
+- Strong clinical relevance.
+
+Weaknesses:
+- The rationale for choosing CPA concentrations is insufficiently justified. The authors should provide dose-response data.
+- The claim that "2D systems cannot model tumor heterogeneity" is an oversimplification. Recent microfluidic approaches have shown promising results.
+
+2. Investigator(s)
+Strengths:
+- PI has strong track record in bioprinting.
+
+Weaknesses:
+- No co-investigator with cryobiology expertise is listed. This is a significant gap given the centrality of cryopreservation to the project.
+
+3. Innovation
+Strengths:
+- Cryobioprinting is a novel concept.
+
+Weaknesses:
+- The novelty claim is overstated. Similar in-situ freezing approaches have been published by Zhang et al. (2022). The authors must clearly differentiate their method.
+- Lack of comparison with existing vitrification methods for 3D bioprinted tissues.
+
+4. Approach
+Strengths:
+- Well-structured experimental design.
+
+Weaknesses:
+- The statistical analysis plan is vague. Sample sizes are not justified with power analysis.
+- No mention of how batch-to-batch variability in bioink composition will be controlled.
+- The timeline for completing Aim 2 is unrealistic given the complexity of high-throughput optimization.
+
+Reviewer 2
+
+1. Significance
+Strengths:
+- Important problem in cancer therapeutics.
+
+Weaknesses:
+- The proposal does not adequately address how the model will be validated against patient-derived xenograft (PDX) models.
+
+2. Innovation
+Strengths:
+- Fresh approach to tissue preservation.
+
+Weaknesses:
+- The authors claim their bioink is "unique" but do not compare it to commercially available bioinks. This weakens the innovation argument.
+
+3. Approach
+Strengths:
+- Good pilot data.
+
+Weaknesses:
+- Aim 1 lacks a clear milestone for determining success vs failure of the cryopreservation protocol.
+- The transition from Aim 1 to Aim 2 is not well-defined. What criteria determine readiness to proceed?

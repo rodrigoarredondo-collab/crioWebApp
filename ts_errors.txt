@@ -1,0 +1,30 @@
+.next/dev/types/validator.ts(80,39): error TS2307: Cannot find module '../../../app/dashboard/cria/page.js' or its corresponding type declarations.
+.next/dev/types/validator.ts(170,39): error TS2307: Cannot find module '../../../app/api/agents/discovery/route.js' or its corresponding type declarations.
+.next/dev/types/validator.ts(179,39): error TS2307: Cannot find module '../../../app/api/agents/icp/route.js' or its corresponding type declarations.
+.next/dev/types/validator.ts(188,39): error TS2307: Cannot find module '../../../app/api/agents/leads/route.js' or its corresponding type declarations.
+.next/dev/types/validator.ts(197,39): error TS2307: Cannot find module '../../../app/api/chat/route.js' or its corresponding type declarations.
+.next/types/validator.ts(80,39): error TS2307: Cannot find module '../../app/dashboard/cria/page.js' or its corresponding type declarations.
+.next/types/validator.ts(170,39): error TS2307: Cannot find module '../../app/api/agents/discovery/route.js' or its corresponding type declarations.
+.next/types/validator.ts(179,39): error TS2307: Cannot find module '../../app/api/agents/icp/route.js' or its corresponding type declarations.
+.next/types/validator.ts(188,39): error TS2307: Cannot find module '../../app/api/agents/leads/route.js' or its corresponding type declarations.
+.next/types/validator.ts(197,39): error TS2307: Cannot find module '../../app/api/chat/route.js' or its corresponding type declarations.
+app/api/cron/send-notifications/route.ts(150,20): error TS2352: Conversion of type '{ email: any; full_name: any; }[]' to type '{ email: string; full_name: string | null; }' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Type '{ email: any; full_name: any; }[]' is missing the following properties from type '{ email: string; full_name: string | null; }': email, full_name
+components/dashboard/icp-editor.tsx(22,39): error TS2307: Cannot find module '@/lib/agents/types' or its corresponding type declarations.
+components/dashboard/icp-editor.tsx(55,48): error TS7006: Parameter '_' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(55,51): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(78,64): error TS7006: Parameter '_' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(78,67): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(151,54): error TS7006: Parameter 'role' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(151,60): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(199,52): error TS7006: Parameter 'geo' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(199,57): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(247,51): error TS7006: Parameter 'keyword' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(247,60): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(300,58): error TS7006: Parameter 'criterion' implicitly has an 'any' type.
+components/dashboard/icp-editor.tsx(300,69): error TS7006: Parameter 'i' implicitly has an 'any' type.
+components/dashboard/leads-table.tsx(34,40): error TS2307: Cannot find module '@/lib/agents/types' or its corresponding type declarations.
+scripts/test-agent-loop.ts(4,41): error TS2307: Cannot find module '../lib/agents/orchestrator' or its corresponding type declarations.
+scripts/test-agent-loop.ts(28,31): error TS7006: Parameter 'event' implicitly has an 'any' type.
+verify_openrouter.ts(4,61): error TS2307: Cannot find module './lib/agents/openrouter' or its corresponding type declarations.
+verify_openrouter.ts(5,24): error TS2307: Cannot find module './lib/agents/types' or its corresponding type declarations.

@@ -1,0 +1,13 @@
+[dotenv@17.2.3] injecting env (9) from .env -- tip: ÔÜÖ´©Å  specify custom .env file path with { path: '/custom/path/.env' }
+=== Supabase Storage Diagnostic ===
+URL: https://kcmoghbwygxrqyfemkix.supabase.co
+Key used (first 15 chars): sb_publishable_
+Key length: 46
+
+1. Listing buckets...
+   Buckets found: NONE
+
+2. Uploading test file to 'dataroom-files' bucket...
+
+3. Listing files in 'dataroom-files' bucket...
+   Files: NONE

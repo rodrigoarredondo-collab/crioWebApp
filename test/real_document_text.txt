@@ -1,0 +1,212 @@
+RESEARCH STRATEGY
+
+A SIGNIFICANCE
+
+A1 Limitations of Current Preclinical Models and the Opportunity for Bioprinting. Despite rapid advancements in drug discovery, failure rates remain high, largely due to the inadequacy of existing preclinical models to predict clinical outcomes[1,2]. Conventional 2D cultures lack biological complexity, while animal models are constrained by pathophysiological differences from humans, high costs, and long development times that limit their translatability under many scenarios[3,4]. In response, various 3D tissue models have been developed— including organoids, spheroids, and organ-on-chips—they have been instrumental to date, but each presents intrinsic limitations as well. These models often face challenges with control over tissue architecture and/or extended development timelines; in the case of organs-on-chips, are typically incompatible with standard pharmaceutical workflows[5,6]. To this end, 3D bioprinting presents a promising alternative because it offers precise spatial control, high reproducibility, and the ability to fabricate complex, heterogeneous tissue constructs, making it a strong candidate for disease modeling, drug discovery, and translational applications[6–8].
+
+A2 Bioprinting Pancreatic Tumor Models: Potential and Preservation Challenge. Pancreatic cancer, with a 5-year survival rate under 10%, remains one of the most lethal cancer types and is notoriously difficult to replicate in vitro due to its chemoresistance and dense tumor-stroma interface[9,10]. The pancreatic tumor microenvironment is characterized by dense fibrotic stroma, immune suppression, and cellular heterogeneity— all of which are poorly modeled in 2D systems or are impractical (e.g., costly with long development times) to capture in animal-based models[10,11]. Bioprinted pancreatic tumor models provide an opportunity to recreate this complexity and heterogeneity with high spatial control and structural fidelity[11,12]. However, their utility is severely constrained by the inability to preserve the tissues post-fabrication, making integration into preclinical workflows at desired testing sites—particularly high-throughput screening—virtually impossible. There is a clear unmet need for a pathologically relevant, preservable bioprinted pancreatic tumor model that can meet the demands of high-throughput applications.
+
+A3 Challenges in Bioprinted Tissue Preservation and Need for High-Throughput Solutions. One of the most pressing limitations of bioprinted models is the inability to immediately preserve tissues during fabrication[13,14]. Once bioprinted, and if not used immediately, the tissues begin to undergo morphological and functional changes, deviating from their initial state. These temporal shifts introduce reproducibility issues and contribute to an extremely short shelf-life[15], which narrows the experimental window and complicates logistics (e.g., shipping and storage) for users[16]. If tissues are not shipped in time or used promptly, their biological relevance declines rapidly, due to a limited shelf-life, leading to cell and tissue deaths. Moreover, if follow-up studies are needed, new batches must be fabricated and shipped, introducing delays and batch-to-batch variability. Feedback from pharmaceutical researchers at Johnson & Johnson, Merck, AbbVie, AstraZeneca, and others (private communications) confirms that in-house bioprinting is not a viable option—they oftentimes do not have the specialized expertise nor capacity to fabricate these models despite attempts. In ideal scenarios, what they need are shelf-ready, standardized models that plug directly into existing high-throughput workflows.
+
+Additionally, current bioprinting platforms, in particular those based on the use of nozzles, struggle to support high-throughput tissue fabrication. Producing a full 96-well plate of constructs can take between 15 minutes to several hours. During that time, early bioprinted constructs begin to dehydrate, resulting in structural shrinkage that compromises both mechanical integrity and reproducibility[17]. For example, a 7.5% (w/v) porcine gelatin methacryloyl (GelMA) hydrogel can fully dehydrate within 15 minutes at room temperature (Fig. 1). Thus, preservation is essential not only post-fabrication but must be
+
+
+
+actively integrated into the bioprinting process to extend the print window and prevent reproducibility issues during high-throughput fabrication. Without such scalable preservation solutions, bioprinted models will remain underutilized in preclinical workflows.
+
+While embedded bioprinting has been explored to extend the print window, it poses technical and operational barriers[18]. These include the need to
+
+Fig. 1. Dehydration of bioprinted tissues. Time-lapse visualization of dehydration in grid-structured, 7.5% (w/v) GelMA constructs following extrusion bioprinting at room temperature. The graph represents construct area changes quantified frame-by-frame using custom code, with data smoothed by applying a moving-average function.
+
+
+
+engineer support baths that are mechanically stable yet permissive to diverse bioinks, increased reagent consumption due to well-by-well filling, and additional workflow complexity from post-print bath removal steps. Furthermore, surface evaporation during the bioprinting process can alter the physical properties of the bath over time, reducing consistency and affecting cell behavior[19], especially at such a small scale as is the case within 96-well plates.
+
+
+
+A4 High-Throughput Cryobioprinting. To address these limitations, Criocore proposes a high-throughput cryobioprinting platform that integrates real-time tissue preservation directly into the fabrication process while maintaining the pathological relevance of bioprinted models. We have previously demonstrated that cryobioprinting enables on-demand preservation of bioprinted constructs while maintaining viability and function post-thaw[14,20–22]. These findings validate the feasibility of tissue preservation via immediate cryopreservation. Building on this, Criocore will develop and validate a next-generation cold plate system capable of uniform freezing across standard 96-well plate configurations to support immediate cryopreservation.
+
+This platform addresses the critical needs voiced by pharmaceutical stakeholders: scalable throughput, high reproducibility, and streamlined logistics. The proposed technology represents a paradigm shift—transforming bioprinting from a time-sensitive fabrication tool to a reliable source of shelf-ready, pathologically relevant tissue models. By bridging the gap between bioprinting and pharmaceutical implementation, Criocore’s platform lays the foundation for establishing a new standard in preclinical testing. Broad deployment of this technology will accelerate drug discovery, expand access to advanced in vitro models, and further elevate the consistency and impact of preclinical cancer research—particularly in hard-to-model diseases such as pancreatic cancer.
+
+B INNOVATION
+
+Development of a cold plate and bioink specifically optimized for high-throughput cryobioprinting, enabling uniform cryopreservation, reproducibility, cell viability, and tissue functions across a 96-well plate format.
+
+Criocore’s cryobioprinting technology transforms preclinical bioprinted models from time-sensitive constructs into shelf-ready, on-demand platforms.
+
+This proposal addresses the current limitation of insufficient throughput in our cryobioprinting system, a critical barrier for pharmaceutical adoption.
+
+Establishes the foundation for scalable, pathologically relevant pancreatic tumor models that are compatible with automated drug screening workflows.
+
+Positions Criocore’s platform as a commercially viable solution for integration into industrial-scale preclinical drug development pipelines.
+
+C APPROACH
+
+We will develop a cryobioprinting platform that enables reproducible, high- throughput fabrication and long-term preservation of complex tissue models. This will involve engineering a thermally regulated cold plate specifically designed for 96 well-plate configurations, optimizing cryoprotectant-enhanced bioinks, and validating tissue reproducibility and cell functions post-thaw. Beyond addressing current limitations of conventional bioprinted models in throughput and preservation, this work will advance the scalability and versatility of cryobioprinting, enabling broader adoption into preclinical drug development workflows. While a fully developed pancreatic model is beyond the scope of this Phase I proposal, we aim
+
+
+
+to lay the foundation for further development of high-throughput complex in vitro
+
+models for Phase II and beyond.
+
+C1 Hypothesis. Development of a high-throughput cryobioprinting system and optimization of reproducibility will support large-scale tissue production and robust preclinical testing workflows with a targeted focus on a pancreatic tumor model.
+
+C2 Preliminary Studies. We have developed a cryobioprinting technology (Fig. 2)
+
+Fig. 2. Cryobioprinting schematic. Schematic representation of the cryobioprinting setup, consisting of an XYZ stage, our bioink formulation (cells, hydrogels, and cryoprotective agents), and a cold plate. Inset highlights the immediate freezing of the bioink upon contact with the cold plate surface.
+
+
+
+that integrates a 3-axis motion stage with a printhead for depositing bioinks composed of cells, hydrogels, and cryoprotective agents (CPAs). Central to this system is a cold plate, which enables immediate cryopreservation of the printed constructs upon deposition. This in situ freezing ensures that the 3D structure and cells are preserved, eliminating dehydration or morphological changes that typically occur post-fabrication if not immediately cultured. By incorporating CPAs into the bioink formulation, the freezing process is tuned to maintain cell viability and functionality. We were among the first to report cryobioprinting and have extensive experience with the technology[13–15,20–22].
+
+Relevant to this proposed project, for example, to validate the feasibility of long-term cryopreservation of bioprinted tissues, we conducted a series of studies examining both cell viability and post-thaw functionality. Constructs were cryobioprinted using 5% (w/v) porcine GelMA bioink on a thermoelectric cooler (TEC)-based
+
+
+
+cold plate maintained at -15 °C. To assess cell viability, NIH/3T3 mouse fibroblasts and primary human umbilical vein endothelial cells (HUVECs) were encapsulated and cryopreserved for up to 3 months. Following thaw and re- culture for 7 days, cell viability was determined to be 83% for NIH/3T3 cells and 86% for HUVECs (Fig.
+
+
+
+
+
+Fig. 3. Long-term storage and cell functionality of cryobioprinted samples. A. Cell viability in cryobioprinted cell-laden (NIH/3T3 and HUVECs) constructs after 3 months of cryopreservation at - 196 °C (liquid nitrogen), at different days post-revival. B. Osteogenic differentiation: semi-quantitative measurements of RUNX2 (1 week) and osteocalcin (2 and 3 weeks). Chondrogenic differentiation: semi-quantitative measurements of SOX-9. Adipogenic differentiation: semi-quantitative measurements of PPARγ.[20]
+
+
+
+3A), indicating that the cryobioprinting process preserved cellular integrity over extended storage durations. To further evaluate whether cryobioprinting impacted cell functionality, we used human mesenchymal stem cells (hMSCs) to assess lineage-specific differentiation capacity post-thaw. Constructs were cultured under standard osteogenic, chondrogenic, and adipogenic induction conditions. Quantitative analyses of key biomarker expressions revealed that differentiation trends in cryobioprinted constructs were comparable to those observed in unfrozen controls, suggesting that cryopreservation did not impair hMSC functionality (Fig. 3B)[20].
+
+C3 Specific Aim 1: Develop a high-throughput cryobioprinting system.
+
+C3.1 Preliminary data. To date, we have developed a preliminary cold plate system utilizing six TECs, each coupled to an aluminum cooling block and embedded in a custom 3D-printed base designed to align and secure a standard 96-well plate. The lid and base interlock via embedded neodymium magnets. While functional, this prototype exhibits substantial temperature variability across wells (Fig. 4), likely due to the known limitations of TECs, such as non-uniform performance across units caused by variability in manufacturing quality; TEC efficiency is also nonlinear with respect to temperature, making precise control challenging across multiple units operating in parallel[23,24].
+
+
+
+Furthermore, the system’s dependence on six independent high-current power supplies imposes scalability and practicality constraints, rendering it unsuitable for true high-throughput operation.
+
+To address these limitations, we propose a second-generation cold plate concept based on thermofluidic circulation. In this configuration, a
+
+Fig. 4. Thermal performance of TEC-based cold plate. Temperature distribution schematic for a 96- well plate controlled by a six-unit TEC system. Each color-coded zone represents an individual TEC unit. Reported values within each well indicate temperature (°C), highlighting variations across and within TEC units.
+
+
+
+low-temperature coolant will be circulated through precision-machined internal channels within a thermally conductive metal block that interfaces with the base of the well plate. A preliminary CAD model of the housing and channel geometry is shown in Fig. 5. While promising in concept, this design remains at the early prototyping stage and will require rigorous thermal modeling, fabrication using CNC machining, and hardware optimization, the goal of this project.
+
+In parallel, we have developed an early-stage software configured for 96-well- format cryobioprinting. The graphical user interface (GUI) currently supports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 5. Schematic design of cold block.
+
+Initial simplified schematic depicting the metal block utilized for the new cold plate.
+
+
+
+inter-well travel movements and predefined sliced G-codes. However, core functionalities such as STL import and slicing, optimized intra-well path planning, and integration with thermofluid control systems remain under development. These functions are essential for achieving fully automated, high-throughput printing and will be implemented and tested in this proposal.
+
+C3.2 Research Strategy and Outcome Analyses. Cold plate design, optimization, fabrication, and testing: We will initiate this project with detailed computational fluid dynamics (CFD) simulations using COMSOL Multiphysics to investigate and optimize the thermal behavior of the proposed cold plate system. The primary objective is to quantify and minimize thermal variation across the bottom plane of a standard 96-well plate positioned atop a thermofluid-cooled, thermally conductive metal cold block. In addition to ensuring uniformity, we aim to enable precise thermal control in the range of -20 °C to -10 °C, similar to those previously used[20–22], allowing tunability depending on bioink and cell-specific freezing profiles. Unlike our prior CFD studies that focused on transient heat dissipation within individual extruded hydrogel filaments[20], this effort will emphasize spatial temperature uniformity across multiple discrete regions (wells) subjected to simultaneous conductive cooling.
+
+Our simulation model will incorporate 3D geometries of the cold block and well plate interface, material- dependent thermal conductivities (e.g., copper and aluminum 6061 for the cold plate and polystyrene for the well
+
+
+
+plate), and thermofluid properties (e.g., thermal conductivity, specific heat capacity, and dynamic viscosity). Simulations will be conducted across a range of inlet temperatures (-40 °C to -20 °C) and flow rates (10 to 22 L/min), capturing both steady-state and transient regimes. These outputs will map the temporal evolution of heat gradients and quantify time to thermal stabilization. Performance benchmarks include <5% temperature deviation across the bottom surface of the wells and attainment of target temperatures (-20 °C to -10 °C) within 15 minutes of flow initiation.
+
+Based on simulation results, we will fabricate the selected cold block geometry using CNC milling, incorporating serpentine internal channeling optimized for uniform flow distribution[25–28]. The block will be housed within a Styrofoam-insulated enclosure to minimize thermal losses to the ambient environment. The housing will include precision-registered alignment features to ensure flush, repeatable contact with standard 96-well plates. Post- fabrication, high-resolution thermocouples will be placed at the base of each well to record real-time surface temperature profiles. Measurements will be logged across varying thermofluid input conditions to generate empirical thermal maps for validation. Deviations exceeding 10% from simulation predictions will prompt iterative design refinement involving flow geometry adjustments, thermal insulation enhancements, or material changes.
+
+Bioprinter development and cold plate integration: We will design a custom bioprinter in which the cold plate remains fixed to preserve thermal and mechanical stability during bioprinting. All motion will be confined to a 3- axis gantry system controlling the printhead, minimizing disruption to the cold substrate. A commercial XYZ motion stage will serve as the basis of the system, onto which we will mount our in-house printhead. A commercial breadboard, similar to those used in our previous work[29], will secure both the motion stage and cold plate in place.
+
+The system will be controlled using a 32-bit microcontroller motherboard (e.g., SKR Pro V1.2 or equivalent), running firmware based on Marlin or similar open-source alternatives[30]. Our existing Python-based GUI (developed using PyQt5 and QtDesigner, similar to our previous publication[31]) will be expanded to include STL import, automated slicing, and optimized print-path generation[32–34]. Simulation and visualization tools will provide print previews and estimated run-time. The GUI will also communicate with the thermofluid circulator via Ethernet, enabling real-time temperature and flow control to dynamically regulate the cold plate’s surface temperature. This integration will allow synchronized adjustment of printing parameters in response to specific thermal requirements.
+
+High-throughput acellular print optimization: Following full system integration, we will validate print fidelity using acellular gelatin-based hydrogels (e.g., 5.0-7.5% porcine GelMA) deposited across all 96 wells. Optimization will focus on key interdependent parameters including movement speed, extrusion flow rate, layer height, and nozzle diameter, recognized as primary determinants of bioprinting fidelity[35]. In the context of cryobioprinting, cold plate temperature plays an additional critical role, as it directly affects both printability and structural retention under sub-zero conditions. All parameters will be iteratively tuned to identify optimal combinations that yield high-fidelity, reproducible constructs. Each printed construct will be imaged using high-resolution microscopy and analyzed using image processing software (e.g., ImageJ or custom Python-based scripts). Quantitative metrics (e.g., line width, cross-sectional area, and edge detection) will be used to assess intra-well and inter-well variability. Our goal is to maintain a coefficient of variation of ≤5% across all wells. This data will serve as technical validation of the mechanical and thermal integration of the high-throughput cryobioprinting platform.
+
+C3.3 Milestones and Expected Outcome. Milestones: 1) Finalize cold plate design through CFD simulations targeting <5% temperature variation across 96 wells and achieving steady-state temperatures of -20 °C to -10
+
+°C within 15 minutes. 2) Validate thermal performance through thermocouple measurements, with simulation-to- experiment deviation ≤10%. 3) Assess print fidelity using 5.0-7.5% GelMA hydrogels, maintaining a coefficient of variation ≤5% for geometric consistency metrics (line width, area, edge detection). Expected Outcome: A fully integrated high-throughput cryobioprinting system with uniform thermal control and reproducible printing across a 96-well format.
+
+C3.4 Contingency Plan. If CFD simulations fail to produce a design meeting thermal uniformity requirements, we will iteratively refine internal channel geometries, flow distribution paths, or thermofluid selection to improve cooling performance. Should experimental results show >10% deviation from simulation, thermal experimental data will inform redesign and retesting. Additional emphasis will be placed on minimizing thermal losses— including insulated tubing between the circulator and cold plate—and optimizing thermal contact interfaces. If the integrated bioprinter fails to meet geometric fidelity thresholds, we will recalibrate gantry mechanics and optimize extrusion dynamics (speed, acceleration, flow rate). Retraction settings will also be a focal point, especially due to the large number of travel movements required in high-throughput formats, as improper retraction can lead to stringing and compromise print fidelity[36,37].
+
+
+
+C4 Specific Aim 2: Optimize bioink formulations for reproducible high-throughput outputs.
+
+C4.1 Preliminary data. A core requirement for cryobioprinting at high throughput is the ability to optimize bioinks that ensure cell viability and print fidelity under sub-zero conditions. We have developed and refined a systematic workflow for tailoring cryoprotectant-enhanced bioinks to specific cell types and material formulations. Using a library of CPAs—including di- and trisaccharides—we evaluated their effect on post-thaw viability across diverse cell lines. These studies revealed that both the type and concentration of CPA must be adjusted depending on the cell type and bioink properties to optimize cryoprotection. We demonstrated a successful application of this workflow using HUVECs, MCF-7, HepG2, and hMSCs, where optimized formulations maintained ~80% cell viability at 72 hours post-thaw (Fig. 6)[20]. These formulations included 10% (v/v) dimethyl sulfoxide
+
+
+
+(DMSO) combined with either 12% (w/v) melezitose, 4% (w/v) lactose, or 4% (w/v) raffinose. Due to its consistent performance of
+
+~80% viability across multiple cell types, melezitose will be chosen as one of the primary CPA components.
+
+To further demonstrate feasibility, we developed a preliminary pancreatic tumor-stroma model (low throughput) featuring compartmentalized printing of pancreatic tumor cells and cancer- associated fibroblasts. Constructs maintained high viability (>80%) following cryopreservation and 7 days of post-thaw culture, with clear evidence of cell spreading and preserved compartmental structure (Fig. 7) As a proof-of-concept, we also performed a basic drug response assay using Gemcitabine, where increasing drug concentrations correlated with a dose-dependent decrease in cell viability (Fig. 7). While this simplified model supports the potential of cryobioprinting in drug screening applications, further platform development is required to achieve the scale and reproducibility necessary for integration into high-throughput pharmaceutical workflows.
+
+C4.2 Research Strategy and Outcome Analyses. Cryoprotective
+
+Fig. 6. Cell viability (HUVEC, MCF-7, hMSC, HepG2) in cryopreserved GelMA constructs with different concentrations and types of CPAs. Significant increase in cell viability of various cell types when selected CPAs were employed. Ctrl: control.[20]
+
+
+
+
+
+Fig. 7. Characterization of cryobioprinted tumor- stroma PDAC in vitro model. Fluorescence micrographs showing cellular spatial organization on day 7 of culture, demonstrating stratification of cancer cells (CMFDA-labeled PANC-1, green) surrounded by cancer- associated fibroblasts (DiD-labeled CAFs, red), resembling native tumor architecture. Scale bars = 100 μm. Viability assessment post 72-h exposure to Gemcitabine comparing fresh and cryopreserved PDAC models.[publication pending]
+
+
+
+bioink optimization under sub-zero conditions: This effort aims to select the top-performing bioink candidates that maintain high post-thaw cell viability while exhibiting suitable mechanical properties—such as rheology and stiffness—compatible with high-throughput cryobioprinting and aligned with the pathological stiffness range characteristic of pancreatic tumor tissues. Porcine GelMA will be synthesized using an established protocol we have previously employed[38–42], and used as the base material (5.0-7.5% w/v, a range consistent with our previous works[20,22]) supplemented with varying concentrations of CPAs to reduce ice crystal formation and mitigate osmotic imbalances during the freezing and thawing processes[43].
+
+We will evaluate a collection of bioink formulations consisting of melezitose at 8, 10, and 12% (w/v), combined with DMSO at 5-10% (v/v), optimized for the human pancreatic cancer cell line (PANC-1). This factorial design will enable systematic evaluation of concentration-dependent effects and CPA interactions across multiple freezing temperatures (-20°C, -15°C, and -10°C). For the purposes of this proposal, and to avoid overambition, we will not seek the incorporation of stromal cells; these components may be explored in Phase II and beyond.
+
+Comprehensive characterization of cell-laden bioinks (6-10 × 106 cells mL-1) will be performed using cast samples, similar to our previously established protocols[20], to inform design parameters that ensure cellular protection and mechanical profiling after undergoing cryogenic conditions. Crosslinking of the constructs will occur simultaneously with the thawing process, where warming enhances construct transparency and concurrent UV exposure provides structural stabilization, as we previously reported[20]. Cell viability will be assessed for up to 14 days post-thaw using Live/Dead staining, metabolic activities via PrestoBlue, and cytoskeletal integrity by F-actin/nuclei staining. CPA-free GelMA will serve as the control. Rheological profiling—including shear thinning behavior, storage modulus (G’), and loss modulus (G”)—will be conducted to match the viscoelastic properties of the bioink with those of acellular reference formulations, enabling consistent extrusion behavior and structural
+
+
+
+reproducibility. Mechanical testing (compression and tensile moduli) will quantify construct elasticity and stiffness, with target values aligned to the pathological range observed in pancreatic tumor tissues (~7 kPa)[44]. The best-performing formulations from this screening will be used for high-throughput cryobioprinting evaluation.
+
+High-throughput cryobioprinting and pancreatic cancer cell characterization: The selected cryoprotective bioinks will be evaluated in a 96-well high-throughput cryobioprinting format to identify the top-performing formulation based on printability, structural reproducibility, and cell functionality, with a target of ≤5% well-to-well variation. For cell-laden bioinks, freezing temperature plays a critical role, influencing not only printability but also post- print cell viability and function; therefore, careful optimization must consider the interplay between both structural and biological outcomes.
+
+We will begin by using the high-throughput parameters optimized for acellular constructs as a baseline to assess printability and structural reproducibility. Due to the similarities in flow behavior between the two formulations (acellular and cellular), we anticipate only minor parameter refinements. A similar characterization strategy as used in the acellular high-throughput printing trials will be employed to quantify and validate print consistency metrics across the 96 wells.
+
+Characterization of pancreatic tumor cell behavior following high-throughput cryobioprinting will be performed to validate the biological feasibility and reproducibility of the platform. Using the 96-well cryobioprinting setup, we will assess cell viability (Live/Dead assay) and metabolic activities (PrestoBlue) for up to 28 days post-thaw. Additionally, we will evaluate the expression of key biomarkers—including vimentin and E-cadherin (epithelial– mesenchymal transition and cell-cell adhesion), zonula occludent (ZO-1), N-cadherin, and Pan-CK AE1/AE3 (pancreatic tumor marker)—to assess phenotypic stability and tissue identity. Molecular assays will be conducted using qPCR and RNAseq as needed. Control constructs fabricated without cryopreservation will serve as benchmarks to evaluate the impact of freezing on cell phenotype and function. Statistical comparisons across cryo and non-cryo conditions, along with biological replicates, will quantify reproducibility and inform the translational potential of this platform for preclinical screening applications.
+
+C4.3 Milestones and Expected Outcome. Milestones: 1) Select top-performing bioink candidates that achieve
+
+≥80% post-thaw cell viability on day 1 and ≥90% by day 14, with consistent cell spreading within 48 hours. 2) Identify the best-performing formulation under high-throughput cryobioprinting conditions based on structural and biological reproducibility across a 96-well format. Structural reproducibility will be defined by ≤5% geometric deviation across wells; biological consistency will be based on key parameters. Cell viability shall remain at or above 90% by day 14 and stay stable until 28. Biomarker expression profiles should show a downregulation of E-cadherin and ZO-1 and upregulation of N-cadherin, vimentin[45,46] with ≤10% phenotypic deviation from non- cryo controls. Expected outcome: A validated high-throughput cryobioprinting bioink capable of generating structurally and biologically reproducible pancreatic tumor tissue models.
+
+C4.4 Contingency Plan. If cell viability targets are not met for the optimized bioink formulation, we will expand our CPA screening to include additional non-permeable (e.g., lactose, raffinose) and permeable (e.g., glycerol) agents to further enhance cryoprotection. Together, permeable and non-permeable CPAs work synergistically to provide comprehensive cryoprotection at both the intra- and extracellular levels[47]. We will ensure that all selected CPA and bioink formulations exhibit mechanical behavior within the acceptable range for pancreatic tumor tissue stiffness. If the selected bioink formulations for high-throughput cryobioprinting do not meet structural or biological reproducibility criteria, we will refine key printing parameters that influence printability and shear stress, including extrusion flow rate, nozzle diameter, and bioink viscosity. Furthermore, we will evaluate incorporating additional bioink components, such as collagen methacryloyl (ColMA)[22], to support improved printability and post-thaw cellular functionality. In case UV light creates cell viability issues, we will switch to the Ru/SPS photoinitiator system that enables visible light crosslinking[48,49].
+
+C5 Timeline (Fig. 8) and logistics. Aim 1: Milestone 1 - CFD cold plate optimization (Month 1); Milestone 2 - Cold plate design, fabrication, and integration with bioprinter (Month 3); Milestone 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 8. Proposal timeline.
+
+Acellular high-throughput printing (Month 3). Aim 2: Milestone 1
+
+CPA optimization for pancreatic cancer cells at various temperatures (Month 3, includes initial cell culture and material
+
+synthesis); Milestone 2 - Selection of optimized bioink for high-throughput cryobioprinting based on structural reproducibility and biological functionality (Month 6). Criocore will be hosted at MIT’s The Engine (see support letter) located just a 5-min walk from Dr. Zhang’s laboratory, both in Cambridge, making the collaboration extremely convenient ensuring success of the proposed project. Of note, Mr. Garciamendez has extensive experience in bioprinter development (>6 yrs), and Dr. Zhang is a global leader in the field of biofabrication.
+
