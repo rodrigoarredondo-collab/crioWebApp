@@ -27,3 +27,30 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# WhatsApp Auth
+auth_info_baileys/
+
+# Build and Error Logs
+build_output*.txt
+test-output*.txt
+test_*_out.txt
+ts_error*.txt
+ts_error*.log
+tsc_output.txt
+vv
+
+# Temp files
+error*.html
+parsed-format.json
+test.xlsx
+empty_test.xlsx
+test/*.txt
+
+# Ad-hoc scripts
+get_file.js
+read-file.js
+read-file.mjs
+test-api.mjs
+test-links.mjs
+test-parse*.mjs
